@@ -1,0 +1,27 @@
+name: nipy310
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  # - pip
+  # - numba
+  # - dask
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  # - xarray
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - statsmodels
+  - scikit-learn
+  - ipywidgets
+  - ipyvolume
+  - voila
+  # - nipy
+  - nipype
+  - nibabel
+  - nilearn
+  - pip:
+    - niwidgets

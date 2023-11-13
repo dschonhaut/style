@@ -1,0 +1,28 @@
+# The name of the color table
+Name=NIH
+
+# The number of knots used in this color table
+NumberOfKnots=256
+
+# List of knots, starting with zero.
+# Each knot consists of five space-delimited values:
+# Location - a decimal value from 0 to 1 - the placement of the knot along the color table continuum
+# Red - an integer value from 0 to 255 - the degree of red component
+# Green - an integer value from 0 to 255 - the degree of green component
+# Blue - an integer value from 0 to 255 - the degree of blue component
+# Gradient - a boolean value of 0 or 1 - if 1, then colors will change continuously between this knot and the next
+Knot9=0.625 255 255 0 1
+Knot8=0.559375 85 255 85 1
+Knot7=0.496875 0 255 0 1
+Knot6=0.434375 0 255 170 1
+Knot5=0.371875 0 170 170 1
+Knot4=0.309375 0 85 255 1
+Knot3=0.246875 0 0 255 1
+Knot2=0.121875 0 0 85 1
+Knot1=0.058823529411764705 85 0 170 1
+Name=NIH
+Knot0=0.0 0 0 0 1
+Knot12=1.0 172 0 0 0
+Knot11=0.85 255 0 0 1
+Knot10=0.75 255 85 0 1
+NumberOfKnots=13

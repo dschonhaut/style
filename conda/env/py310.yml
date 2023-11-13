@@ -1,0 +1,15 @@
+name: py310
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - ipyvolume
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
